@@ -14,7 +14,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) {
 
-        var label = new Label("Help me");
+        var label = new Label("Canta");
         var scene = new Scene(new StackPane(label), 640, 480);
         stage.setScene(scene);
         stage.show();
